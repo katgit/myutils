@@ -1,0 +1,14 @@
+Package: myutils
+Type: Package
+Title: A set of useful utilities
+Version: 0.1.2
+Authors@R: 
+    c(person(given = "Katia",
+             family = "Bulekova",
+             role = c("aut", "cre"),
+             email = "ktrn@bu.edu",
+             comment = c(ORCID = "0000-0000-0000-ABCD")))
+Description: A set of summary-like utilities for various types of Data.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
