@@ -14,3 +14,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/katgit/myutils
 BugReports: https://github.com/katgit/myutils/issues
+RoxygenNote: 7.2.0
