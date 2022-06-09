@@ -1,0 +1,25 @@
+---
+title: "myutils"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{myutils}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+To use my package install the following dependencies.
+
+```{r setup}
+library(myutils)
+
+
+numeric_summary(1:5)
+```
