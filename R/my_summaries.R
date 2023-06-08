@@ -1,7 +1,7 @@
 # This function creates a summary for a numeric vector
 numeric_summary <- function(x, na.rm=FALSE){
 
-  min = min(x, na.rm=na.rm)
+  min = min(x, na.rm = na.rm)
   max = max(x, na.rm=na.rm)
   mean = mean(x, na.rm=na.rm)
   sd = sd(x, na.rm=na.rm)
