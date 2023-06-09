@@ -2,8 +2,18 @@ Package: myutils
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.0.0.9000
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Authors@R:
+    c(person(given = "John",
+           family = "Smith", 
+           role = c("aut", "cre"),
+           email="john_smith@gmail.com",
+           comment = c(ORCID = "0000-0001-1234-5678")),
+      person(given = "Elizabeth",
+           family = "Miller", 
+           role = c("ctb"),
+           email="emiller@gmail.com",
+           comment = c(ORCID = "0000-0001-0314-1592"))
+           )
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: GPL (>= 3)
@@ -11,3 +21,9 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/katgit/myutils
 BugReports: https://github.com/katgit/myutils/issues
+RoxygenNote: 7.2.3
+Imports:
+    dplyr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
